@@ -35,10 +35,11 @@ jobs:
         
       # 3. Build the MkDocs documentation site
       - name: Build MkDocs Site
-        uses: actions/pawamoy/action-mkdocs@v1 
+        uses: pawamoy/action-mkdocs@v1 
         with:
           # ***** CRITICAL: Specify the directory where mkdocs.yml is located *****
           working-directory: Documentation 
+          output-path: site
       
       # 4. Upload the built files as an artifact
       - name: Upload Artifact
