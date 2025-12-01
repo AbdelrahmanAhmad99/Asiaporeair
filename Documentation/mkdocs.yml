@@ -3,6 +3,8 @@ site_url: https://AbdelrahmanAhmad99.github.io/Asiaporeair/
 repo_url: https://github.com/AbdelrahmanAhmad99/Asiaporeair.git
 repo_name: Asiaporeair/GitHub
  
+ docs_dir: docs
+ 
 theme:
   name: material 
   language: en 

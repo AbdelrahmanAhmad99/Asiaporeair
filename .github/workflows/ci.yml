@@ -28,8 +28,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
- 
-
+  
       # 2. Setup Python environment (MkDocs is a Python application)
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -48,9 +47,9 @@ jobs:
         # We run the command directly, using the explicit paths relative to the repository root.
         # --config-file: Points to Documentation/mkdocs.yml (where the file is located)
         # --site-dir: Outputs the built site to Documentation/site
+        # Note: mkdocs.yml must contain 'docs_dir: docs' to find the source files.
         run: mkdocs build --config-file Documentation/mkdocs.yml --site-dir Documentation/site
-         
-
+          
       # 5. Setup the GitHub Pages environment
       - name: Setup Pages
         uses: actions/configure-pages@v4
