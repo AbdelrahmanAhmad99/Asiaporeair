@@ -35,20 +35,18 @@ jobs:
         with:
           python-version: '3.x'
 
-      # 3. Install MkDocs and dependencies
+      # 3. Install MkDocs and dependencies (FIX: Use --break-system-packages)
       - name: Install Dependencies
         run: |
-          # Install MkDocs and the Material theme (required based on your mkdocs.yml)
-          pip install mkdocs mkdocs-material 
-          # Add any other required plugins here (e.g., pymdown-extensions)
+          # The --break-system-packages flag is necessary to bypass environment protection in GitHub Actions.
+          pip install mkdocs mkdocs-material --break-system-packages
+          # Add any other required plugins here if needed (e.g., pip install pymdown-extensions --break-system-packages)
           
       # 4. Build the MkDocs documentation site (CRITICAL FIX for mkdocs.yml not found)
       - name: Build MkDocs Site
         # We run the command directly, using the explicit paths relative to the repository root.
-        # --config-file: Points directly to Documentation/mkdocs.yml (Fixes Error: Config file not found)
-        # --site-dir: Outputs the built site to Documentation/site (Fixes Error: No files found)
         run: mkdocs build --config-file Documentation/mkdocs.yml --site-dir Documentation/site
-       
+         
 
       # 5. Setup the GitHub Pages environment
       - name: Setup Pages
@@ -58,7 +56,7 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # This path is now guaranteed to exist and contain the built files
+          # Path to the output directory (which is now guaranteed to exist)
           path: Documentation/site 
 
       # 7. Deploy the artifact to GitHub Pages
