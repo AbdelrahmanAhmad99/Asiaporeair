@@ -47,11 +47,10 @@ jobs:
           
       # 4. Build the MkDocs documentation site  
       - name: Build MkDocs Site
-        # We run the command directly, using the explicit paths relative to the repository root.
-        # --config-file: Points to Documentation/mkdocs.yml (where the file is located)
-        # --site-dir: Outputs the built site to Documentation/site
+        # We run the command directly, using the explicit paths relative to the repository root. 
         # Note: mkdocs.yml must contain 'docs_dir: docs' to find the source files.
-        run: mkdocs build --config-file Documentation/mkdocs.yml --site-dir Documentation/site
+        working-directory: Documentation
+        run: mkdocs build
           
       # 5. Setup the GitHub Pages environment
       - name: Setup Pages
