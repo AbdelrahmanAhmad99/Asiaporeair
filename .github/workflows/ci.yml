@@ -1,0 +1,53 @@
+name: Deploy Asiaporeair Documentation
+
+on:
+  # This workflow runs on every push to the 'main' branch
+  push:
+    branches:
+      - main
+  # Allows you to run this workflow manually from the GitHub Actions tab
+  workflow_dispatch:
+
+# Grant necessary permissions for the deployment process (writing to GitHub Pages)
+permissions:
+  contents: read
+  pages: write      
+  id-token: write   
+
+# Ensure only one deployment job runs at a time
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Checkout the source code from the repository
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # 2. Setup the GitHub Pages environment
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+        
+      # 3. Build the MkDocs documentation site
+      - name: Build MkDocs Site
+        uses: actions/mkdocs-build@v1 
+        with:
+          # ***** CRITICAL: Specify the directory where mkdocs.yml is located *****
+          working-directory: Documentation 
+      
+      # 4. Upload the built files as an artifact
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Path to the output directory (which is created inside the Documentation folder)
+          path: Documentation/site 
+
+      # 5. Deploy the artifact to GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
