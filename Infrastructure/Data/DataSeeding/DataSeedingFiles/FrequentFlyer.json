@@ -1,0 +1,14 @@
+ 
+
+[
+  { "CardNumber": "APFF-00001", "Level": "Solitaire PPS Club", "AwardPoints": 550000 },
+  { "CardNumber": "APFF-00002", "Level": "PPS Club", "AwardPoints": 420000 },
+  { "CardNumber": "APFF-00003", "Level": "KrisFlyer Elite Gold", "AwardPoints": 180000 },
+  { "CardNumber": "APFF-00004", "Level": "KrisFlyer Elite Gold", "AwardPoints": 150000 },
+  { "CardNumber": "APFF-00005", "Level": "KrisFlyer Elite Silver", "AwardPoints": 85000 },
+  { "CardNumber": "APFF-00006", "Level": "KrisFlyer Elite Silver", "AwardPoints": 70000 },
+  { "CardNumber": "APFF-00007", "Level": "KrisFlyer", "AwardPoints": 25000 },
+  { "CardNumber": "APFF-00008", "Level": "KrisFlyer", "AwardPoints": 32000 },
+  { "CardNumber": "APFF-00009", "Level": "PPS Club", "AwardPoints": 480000 },
+  { "CardNumber": "APFF-00010", "Level": "Solitaire PPS Club", "AwardPoints": 650000 } 
+]

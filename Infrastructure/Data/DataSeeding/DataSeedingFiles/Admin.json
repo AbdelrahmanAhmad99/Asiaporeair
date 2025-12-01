@@ -1,0 +1,47 @@
+[
+    {
+        "user_name": "airport.manager",
+        "email": "manager.ops@asiaporeair.com",
+        "password": "Manager_789*",
+        "first_name": "David",
+        "last_name": "Tan",
+        "date_of_birth": "1988-03-25T00:00:00",
+        "address": "1 Airport Blvd, Changi, Singapore 919858",
+        "profile_picture_url": "/profiles/admin_david.jpg",
+        "date_of_hire": "2018-07-01T00:00:00",
+        "salary": 120000.00,
+        "shift_preference_fk": 1,
+        "department": "Airport Operations",
+        "added_by_id": null
+    },
+    {
+        "user_name": "hr.head",
+        "email": "hr.admin@asiaporeair.com",
+        "password": "HR_Admin_123!",
+        "first_name": "Isabelle",
+        "last_name": "Wong",
+        "date_of_birth": "1990-10-10T00:00:00",
+        "address": "20 Cecil St, Singapore 049705",
+        "profile_picture_url": "/profiles/admin_isabelle.jpg",
+        "date_of_hire": "2019-01-15T00:00:00",
+        "salary": 105000.00,
+        "shift_preference_fk": 2,
+        "department": "Human Resources",
+        "added_by_id": null
+    },
+    {
+        "user_name": "finance.controller",
+        "email": "finance.control@asiaporeair.com",
+        "password": "Finance_456#",
+        "first_name": "Ganesh",
+        "last_name": "Pillai",
+        "date_of_birth": "1982-06-05T00:00:00",
+        "address": "1 Raffles Place, Singapore 048616",
+        "profile_picture_url": "/profiles/admin_ganesh.jpg",
+        "date_of_hire": "2016-04-20T00:00:00",
+        "salary": 115000.00,
+        "shift_preference_fk": 3,
+        "department": "Financial Services",
+        "added_by_id": null
+    }
+]

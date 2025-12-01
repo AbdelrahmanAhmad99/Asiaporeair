@@ -1,0 +1,26 @@
+.md-copyright > div:last-child {
+    display: none;
+}
+.md-footer-meta a[rel="noopener"] {
+    display: none; 
+} 
+.md-copyright  {
+    display: none;
+}
+ 
+.mermaid {
+    overflow: auto; 
+    max-width: 100%;
+}
+  
+ .grid.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1em;  
+}
+
+.grid.cards > * { 
+    border: 1px solid var(--md-default-fg-color--lightest);
+    padding: 1.5em;
+    border-radius: 4px;
+}

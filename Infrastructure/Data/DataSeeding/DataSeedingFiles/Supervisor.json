@@ -1,0 +1,47 @@
+[
+    {
+        "user_name": "ground.sup",
+        "email": "sup.ground@asiaporeair.com",
+        "password": "Ground_Sup_789*",
+        "first_name": "Amelia",
+        "last_name": "Lim",
+        "date_of_birth": "1992-05-18T00:00:00",
+        "address": "77 Airport Road, Singapore 919858",
+        "profile_picture_url": "/profiles/supervisor_amelia.jpg",
+        "date_of_hire": "2020-03-01T00:00:00",
+        "salary": 75000.00,
+        "shift_preference_fk": 4,
+        "managed_area": "Terminal 1 Gate Operations",
+        "added_by_id": null
+    },
+    {
+        "user_name": "customercare.sup",
+        "email": "sup.service@asiaporeair.com",
+        "password": "Cust_Sup_123!",
+        "first_name": "Marcus",
+        "last_name": "Goh",
+        "date_of_birth": "1995-11-29T00:00:00",
+        "address": "23 Changi Business Park, Singapore 486068",
+        "profile_picture_url": "/profiles/supervisor_marcus.jpg",
+        "date_of_hire": "2021-08-20T00:00:00",
+        "salary": 68000.00,
+        "shift_preference_fk": 5,
+        "managed_area": "Customer Service & Ticketing",
+        "added_by_id": null
+    },
+    {
+        "user_name": "security.sup",
+        "email": "sup.security@asiaporeair.com",
+        "password": "Security_456#",
+        "first_name": "Priya",
+        "last_name": "Siddhu",
+        "date_of_hire": "1985-02-12T00:00:00",
+        "address": "10 Aviation Park Road, Singapore 498767",
+        "profile_picture_url": "/profiles/supervisor_priya.jpg",
+        "date_of_hire": "2017-06-10T00:00:00",
+        "salary": 82000.00,
+        "shift_preference_fk": 4,
+        "managed_area": "Airside & Perimeter Security",
+        "added_by_id": null
+    }
+]

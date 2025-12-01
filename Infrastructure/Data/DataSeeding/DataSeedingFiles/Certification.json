@@ -1,0 +1,247 @@
+[
+    {
+        "crew_member_id": 10,
+        "type": "Type Rating A350",
+        "issue_date": "2024-01-01T00:00:00",
+        "expiry_date": "2029-01-01T00:00:00",
+        "is_deleted": false
+    },
+    {
+        "crew_member_id": 11,
+        "type": "Type Rating B777",
+        "issue_date": "2023-08-15T00:00:00",
+        "expiry_date": "2028-08-15T00:00:00",
+        "is_deleted": false
+    },
+    {
+        "crew_member_id": 12,
+        "type": "EASA ATPL",
+        "issue_date": "2015-05-20T00:00:00",
+        "expiry_date": "2027-05-20T00:00:00",
+        "is_deleted": false
+    },
+    {
+        "crew_member_id": 13,
+        "type": "Type Rating A380",
+        "issue_date": "2022-11-10T00:00:00",
+        "expiry_date": "2027-11-10T00:00:00",
+        "is_deleted": false
+    },
+    {
+        "crew_member_id": 14,
+        "type": "FAA Commercial Pilot License",
+        "issue_date": "2018-03-01T00:00:00",
+        "expiry_date": "2028-03-01T00:00:00",
+        "is_deleted": false
+    },
+    {
+        "crew_member_id": 15,
+        "type": "Type Rating B787-10",
+        "issue_date": "2024-05-01T00:00:00",
+        "expiry_date": "2027-05-01T00:00:00",
+        "is_deleted": false
+    },
+    {
+        "crew_member_id": 16,
+        "type": "ICAO English Level 6",
+        "issue_date": "2017-06-01T00:00:00",
+        "expiry_date": "2027-06-01T00:00:00",
+        "is_deleted": false
+    },
+    {
+        "crew_member_id": 17,
+        "type": "Type Rating A350",
+        "issue_date": "2023-03-20T00:00:00",
+        "expiry_date": "2027-03-20T00:00:00",
+        "is_deleted": false
+    },
+    {
+        "crew_member_id": 18,
+        "type": "Type Rating B737 MAX",
+        "issue_date": "2024-02-14T00:00:00",
+        "expiry_date": "2027-02-14T00:00:00",
+        "is_deleted": false
+    },
+    {
+        "crew_member_id": 19,
+        "type": "CPL/IR Multi-Engine",
+        "issue_date": "2019-10-01T00:00:00",
+        "expiry_date": "2029-10-01T00:00:00",
+        "is_deleted": false
+    },
+    {
+        "crew_member_id": 20,
+        "type": "Type Rating B777",
+        "issue_date": "2022-09-01T00:00:00",
+        "expiry_date": "2028-09-01T00:00:00",
+        "is_deleted": false
+    },
+    {
+        "crew_member_id": 21,
+        "type": "Type Rating A380",
+        "issue_date": "2021-07-25T00:00:00",
+        "expiry_date": "2027-07-25T00:00:00",
+        "is_deleted": false
+    },
+    {
+        "crew_member_id": 22,
+        "type": "Line Training Check Captain",
+        "issue_date": "2016-01-01T00:00:00",
+        "expiry_date": "2027-01-01T00:00:00",
+        "is_deleted": false
+    },
+    {
+        "crew_member_id": 23,
+        "type": "Type Rating A350",
+        "issue_date": "2024-04-10T00:00:00",
+        "expiry_date": "2027-04-10T00:00:00",
+        "is_deleted": false
+    },
+    {
+        "crew_member_id": 24,
+        "type": "Type Rating B787-10",
+        "issue_date": "2023-11-29T00:00:00",
+        "expiry_date": "2027-11-29T00:00:00",
+        "is_deleted": false
+    },
+    {
+        "crew_member_id": 25,
+        "type": "First Aid & CPR",
+        "issue_date": "2024-03-01T00:00:00",
+        "expiry_date": "2027-03-01T00:00:00",
+        "is_deleted": false
+    },
+    {
+        "crew_member_id": 26,
+        "type": "Cabin Safety and Emergency Procedures",
+        "issue_date": "2024-02-01T00:00:00",
+        "expiry_date": "2027-02-01T00:00:00",
+        "is_deleted": false
+    },
+    {
+        "crew_member_id": 27,
+        "type": "Dangerous Goods Regulations (DGR)",
+        "issue_date": "2024-04-01T00:00:00",
+        "expiry_date": "2027-04-01T00:00:00",
+        "is_deleted": false
+    },
+    {
+        "crew_member_id": 28,
+        "type": "Security Awareness Training",
+        "issue_date": "2024-01-01T00:00:00",
+        "expiry_date": "2027-01-01T00:00:00",
+        "is_deleted": false
+    },
+    {
+        "crew_member_id": 29,
+        "type": "Customer Service Excellence",
+        "issue_date": "2023-10-15T00:00:00",
+        "expiry_date": "2027-10-15T00:00:00",
+        "is_deleted": false
+    },
+    {
+        "crew_member_id": 30,
+        "type": "Aircraft Specific Doors and Slides",
+        "issue_date": "2024-03-20T00:00:00",
+        "expiry_date": "2028-03-20T00:00:00",
+        "is_deleted": false
+    },
+    {
+        "crew_member_id": 31,
+        "type": "Fire Fighting Training",
+        "issue_date": "2024-05-10T00:00:00",
+        "expiry_date": "2028-05-10T00:00:00",
+        "is_deleted": false
+    },
+    {
+        "crew_member_id": 32,
+        "type": "First Aid & CPR",
+        "issue_date": "2024-04-15T00:00:00",
+        "expiry_date": "2028-04-15T00:00:00",
+        "is_deleted": false
+    },
+    {
+        "crew_member_id": 33,
+        "type": "Cabin Safety and Emergency Procedures",
+        "issue_date": "2023-11-01T00:00:00",
+        "expiry_date": "2028-11-01T00:00:00",
+        "is_deleted": false
+    },
+    {
+        "crew_member_id": 34,
+        "type": "Security Awareness Training",
+        "issue_date": "2024-02-10T00:00:00",
+        "expiry_date": "2028-02-10T00:00:00",
+        "is_deleted": false
+    },
+    {
+        "crew_member_id": 35,
+        "type": "Dangerous Goods Regulations (DGR)",
+        "issue_date": "2023-12-05T00:00:00",
+        "expiry_date": "2028-12-05T00:00:00",
+        "is_deleted": false
+    },
+    {
+        "crew_member_id": 36,
+        "type": "First Aid & CPR",
+        "issue_date": "2024-05-20T00:00:00",
+        "expiry_date": "2028-05-20T00:00:00",
+        "is_deleted": false
+    },
+    {
+        "crew_member_id": 37,
+        "type": "Cabin Safety and Emergency Procedures",
+        "issue_date": "2024-04-25T00:00:00",
+        "expiry_date": "2028-04-25T00:00:00",
+        "is_deleted": false
+    },
+    {
+        "crew_member_id": 38,
+        "type": "Customer Service Excellence",
+        "issue_date": "2023-09-01T00:00:00",
+        "expiry_date": "2028-09-01T00:00:00",
+        "is_deleted": false
+    },
+    {
+        "crew_member_id": 39,
+        "type": "Aircraft Specific Doors and Slides",
+        "issue_date": "2024-01-30T00:00:00",
+        "expiry_date": "2028-01-30T00:00:00",
+        "is_deleted": false
+    },
+    {
+        "crew_member_id": 40,
+        "type": "Fire Fighting Training",
+        "issue_date": "2024-03-10T00:00:00",
+        "expiry_date": "2028-03-10T00:00:00",
+        "is_deleted": false
+    },
+    {
+        "crew_member_id": 41,
+        "type": "First Aid & CPR",
+        "issue_date": "2024-05-15T00:00:00",
+        "expiry_date": "2028-05-15T00:00:00",
+        "is_deleted": false
+    },
+    {
+        "crew_member_id": 42,
+        "type": "Cabin Safety and Emergency Procedures",
+        "issue_date": "2023-10-20T00:00:00",
+        "expiry_date": "2028-10-20T00:00:00",
+        "is_deleted": false
+    },
+    {
+        "crew_member_id": 43,
+        "type": "Security Awareness Training",
+        "issue_date": "2024-01-25T00:00:00",
+        "expiry_date": "2028-01-25T00:00:00",
+        "is_deleted": false
+    },
+    {
+        "crew_member_id": 44,
+        "type": "Dangerous Goods Regulations (DGR)",
+        "issue_date": "2024-02-29T00:00:00",
+        "expiry_date": "2028-02-28T00:00:00",
+        "is_deleted": false
+    }
+]

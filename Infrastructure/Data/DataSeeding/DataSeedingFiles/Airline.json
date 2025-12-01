@@ -1,0 +1,7 @@
+ [
+    {"iata_code": "SQ", "name": "Singapore Airlines", "callsign": "SINGAPORE", "operating_region": "Asia/Pacific", "base_airport_fk": "SIN", "IsDeleted": false},
+    {"iata_code": "MS", "name": "EgyptAir", "callsign": "EGYPTAIR", "operating_region": "Middle East/Africa", "base_airport_fk": "CAI", "IsDeleted": false},
+    {"iata_code": "BA", "name": "British Airways", "callsign": "SPEEDBIRD", "operating_region": "Europe", "base_airport_fk": "LHR", "IsDeleted": false},
+    {"iata_code": "AF", "name": "Air France", "callsign": "AIRFRANS", "operating_region": "Europe", "base_airport_fk": "CDG", "IsDeleted": false},
+    {"iata_code": "DL", "name": "Delta Air Lines", "callsign": "DELTA", "operating_region": "North America", "base_airport_fk": "JFK", "IsDeleted": false}
+]

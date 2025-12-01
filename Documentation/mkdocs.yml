@@ -1,0 +1,104 @@
+site_name: Asiaporeair 
+site_url: https://AbdelrahmanAhmad99.github.io/Asiaporeair/
+repo_url: https://github.com/AbdelrahmanAhmad99/Asiaporeair.git
+repo_name: Asiaporeair/GitHub
+ 
+theme:
+  name: material 
+  language: en 
+  palette:  
+    - scheme: default
+      primary: indigo 
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode 
+    - scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  features:                   
+    - navigation.tabs         
+    - navigation.sections     
+    - navigation.top          
+    - search.suggest          
+    - search.highlight        
+    - content.code.copy       
+    - content.zoom            
+extra_css:
+  - extra/custom.css
+  
+ 
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details 
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg 
+      options:
+        custom_icons:
+          - .circleci
+          - .github
+          - .travis
+          - fontawesome  
+          - octicons    
+plugins:
+  - search
+  - glightbox
+
+
+  
+extra_javascript:
+  - https://unpkg.com/mermaid@10.9.0/dist/mermaid.min.js
+
+ 
+nav:
+  # 1. Project Overview & Main Entry Point (The Detailed README)
+  - Introduction: index.md
+  
+  # 2. Essential steps for developers to run and configure the project locally
+  - Quick Start & Setup:
+      - Setup & Prerequisites: technical/start/setup.md 
+      - Application Configuration: technical/start/config.md
+      - Data Seeding Strategy: technical/start/seeding.md
+  
+  # 3. High-level design principles, project separation, and authorization
+  - System Architecture:
+      - Clean Architecture Deep Dive: technical/arch/clean_arch.md
+      - Project Structure (Layers): technical/arch/structure.md
+      - Domain Model & Entities: technical/arch/domain_model.md
+      - User Roles & Authorization Flow: technical/arch/auth_flow.md
+      
+  # 4. Data models, persistence methodology, and database integrity
+  - Data Persistence:
+      - Entity-Relationship Diagram (ERD): technical/database/erd.md
+      - Database Schema Reference: technical/database/tables_ref.md
+      - EF Core Migrations: technical/database/migrations.md
+      - Data Seeding Details: technical/database/seeding.md
+      
+  # 5. Core business logic interfaces, contracts, and service mapping
+  - Business Services :
+      - Service Dependency Map: technical/services/dependency_map.md
+      - Booking & Ticketing Services: technical/services/booking_services.md
+      - Flight Scheduling & Operations: technical/services/flight_ops.md
+      - Pricing & Ancillary Services: technical/services/pricing_services.md
+      
+  # 6. Controller documentation, REST endpoints, and usage guides
+  - API Reference & Guides:
+      - Public API (Customer Facing): technical/api/public_controllers.md
+      - Admin API (Management): technical/api/admin_controllers.md
+      - Major Use Case (The Booking Lifecycle) : technical/api/booking_sequence.md
+      - Postman Collection Setup: technical/api/postman.md 
+ 

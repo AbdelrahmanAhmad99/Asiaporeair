@@ -1,0 +1,6 @@
+[
+    {"user_name":"superadmin.sgp","email":"superadmin@asiaporeair.com","password":"SuperAdmin_123*","first_name":"Marcus","last_name":"Lim","date_of_birth":"1980-05-15T00:00:00","address":"1 Changi Business Park Ave 1, Singapore 486058","profile_picture_url":"/profiles/superadmin_marcus.jpg","date_of_hire":"2010-01-01T00:00:00","salary":250000.00,"shift_preference_fk":1},
+    {"user_name":"chief.global","email":"chief.global@asiaporeair.com","password":"GlobalOperator_789#","first_name":"Chen","last_name":"Wei","date_of_birth":"1985-08-01T00:00:00","address":"14 Tampines Central 8, Singapore 5290123","profile_picture_url":"/profiles/superadmin_chen.jpg","date_of_hire":"2015-06-25T00:00:00","salary":260000.00,"shift_preference_fk":1},
+    {"user_name":"chief.ce","email":"chief.ce@asiaporeair.com","password":"ChiefOperator_989#","first_name":"Abdelrahman","last_name":"Ahmad","date_of_birth":"1996-08-01T00:00:00","address":"28 Tampines Central 1, Singapore 529543","profile_picture_url":"/profiles/superadmin_chen_ce.jpg","date_of_hire":"2018-06-25T00:00:00","salary":220000.00,"shift_preference_fk":1}
+]
+ 

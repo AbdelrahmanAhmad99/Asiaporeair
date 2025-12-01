@@ -1,0 +1,171 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Data\DataSeeding\DataSeedingFiles\Admin.json" />
+    <None Remove="Data\DataSeeding\DataSeedingFiles\Aircraft.json" />
+    <None Remove="Data\DataSeeding\DataSeedingFiles\AircraftConfig.json" />
+    <None Remove="Data\DataSeeding\DataSeedingFiles\AircraftType.json" />
+    <None Remove="Data\DataSeeding\DataSeedingFiles\Airline.json" />
+    <None Remove="Data\DataSeeding\DataSeedingFiles\Airport.json" />
+    <None Remove="Data\DataSeeding\DataSeedingFiles\AncillaryProduct.json" />
+    <None Remove="Data\DataSeeding\DataSeedingFiles\AncillarySale.json" />
+    <None Remove="Data\DataSeeding\DataSeedingFiles\Attendant.json" />
+    <None Remove="Data\DataSeeding\DataSeedingFiles\BoardingPass.json" />
+    <None Remove="Data\DataSeeding\DataSeedingFiles\Booking.json" />
+    <None Remove="Data\DataSeeding\DataSeedingFiles\BookingPassenger.json" />
+    <None Remove="Data\DataSeeding\DataSeedingFiles\CabinClass.json" />
+    <None Remove="Data\DataSeeding\DataSeedingFiles\Certification.json" />
+    <None Remove="Data\DataSeeding\DataSeedingFiles\ContextualPricingAttributes.json" />
+    <None Remove="Data\DataSeeding\DataSeedingFiles\Country.json" />
+    <None Remove="Data\DataSeeding\DataSeedingFiles\FareBasisCode.json" />
+    <None Remove="Data\DataSeeding\DataSeedingFiles\FlightCrew.json" />
+    <None Remove="Data\DataSeeding\DataSeedingFiles\FlightInstance.json" />
+    <None Remove="Data\DataSeeding\DataSeedingFiles\FlightLegDef.json" />
+    <None Remove="Data\DataSeeding\DataSeedingFiles\FlightSchedule.json" />
+    <None Remove="Data\DataSeeding\DataSeedingFiles\FrequentFlyer.json" />
+    <None Remove="Data\DataSeeding\DataSeedingFiles\Passenger.json" />
+    <None Remove="Data\DataSeeding\DataSeedingFiles\Payment.json" />
+    <None Remove="Data\DataSeeding\DataSeedingFiles\Pilot.json" />
+    <None Remove="Data\DataSeeding\DataSeedingFiles\PriceOfferLog.json" />
+    <None Remove="Data\DataSeeding\DataSeedingFiles\Route.json" />
+    <None Remove="Data\DataSeeding\DataSeedingFiles\RouteOperator.json" />
+    <None Remove="Data\DataSeeding\DataSeedingFiles\Seat.json" />
+    <None Remove="Data\DataSeeding\DataSeedingFiles\SuperAdmin.json" />
+    <None Remove="Data\DataSeeding\DataSeedingFiles\Supervisor.json" />
+    <None Remove="Data\DataSeeding\DataSeedingFiles\Ticket.json" />
+    <None Remove="Data\DataSeeding\DataSeedingFiles\User.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Data\DataSeeding\DataSeedingFiles\Admin.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeeding\DataSeedingFiles\Aircraft.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeeding\DataSeedingFiles\AircraftConfig.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeeding\DataSeedingFiles\AircraftType.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeeding\DataSeedingFiles\Airline.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeeding\DataSeedingFiles\Airport.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeeding\DataSeedingFiles\AncillaryProduct.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeeding\DataSeedingFiles\AncillarySale.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeeding\DataSeedingFiles\Attendant.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeeding\DataSeedingFiles\BoardingPass.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeeding\DataSeedingFiles\Booking.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeeding\DataSeedingFiles\BookingPassenger.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeeding\DataSeedingFiles\CabinClass.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeeding\DataSeedingFiles\Certification.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeeding\DataSeedingFiles\ContextualPricingAttributes.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeeding\DataSeedingFiles\Country.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeeding\DataSeedingFiles\FareBasisCode.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeeding\DataSeedingFiles\FlightCrew.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeeding\DataSeedingFiles\FlightInstance.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeeding\DataSeedingFiles\FlightLegDef.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeeding\DataSeedingFiles\FlightSchedule.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeeding\DataSeedingFiles\FrequentFlyer.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeeding\DataSeedingFiles\Passenger.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeeding\DataSeedingFiles\Payment.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeeding\DataSeedingFiles\Pilot.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeeding\DataSeedingFiles\PriceOfferLog.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeeding\DataSeedingFiles\Route.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeeding\DataSeedingFiles\RouteOperator.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeeding\DataSeedingFiles\Seat.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeeding\DataSeedingFiles\SuperAdmin.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeeding\DataSeedingFiles\Supervisor.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeeding\DataSeedingFiles\Ticket.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\DataSeeding\DataSeedingFiles\User.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="4.14.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="MimeKit" Version="4.14.0" />
+    <PackageReference Include="Stripe.net" Version="50.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.6" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="9.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application\Application.csproj" />
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+  </ItemGroup>
+
+</Project>

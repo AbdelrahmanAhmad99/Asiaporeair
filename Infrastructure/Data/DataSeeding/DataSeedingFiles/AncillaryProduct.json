@@ -1,0 +1,17 @@
+[
+    { "name": "Extra Baggage 10kg", "category": "BAGGAGE", "base_cost": 50.00, "unit_of_measure": "PER_KG", "is_deleted": false },
+    { "name": "Premium Meal Upgrade", "category": "MEAL", "base_cost": 25.00, "unit_of_measure": "PER_FLIGHT", "is_deleted": false },
+    { "name": "Standard Seat Selection", "category": "SEAT", "base_cost": 15.00, "unit_of_measure": "PER_SEAT", "is_deleted": false },
+    { "name": "Exit Row Seat", "category": "SEAT", "base_cost": 75.00, "unit_of_measure": "PER_SEAT", "is_deleted": false },
+    { "name": "In-flight WiFi Pass (Full)", "category": "ENTERTAINMENT", "base_cost": 30.00, "unit_of_measure": "PER_FLIGHT", "is_deleted": false },
+    { "name": "Lounge Access (SIN)", "category": "LOUNGE", "base_cost": 85.00, "unit_of_measure": "PER_PASS", "is_deleted": false },
+    { "name": "Unaccompanied Minor Service", "category": "SPECIAL_ASSIST", "base_cost": 150.00, "unit_of_measure": "PER_CHILD", "is_deleted": false },
+    { "name": "Pet in Cabin Fee", "category": "PETS", "base_cost": 200.00, "unit_of_measure": "PER_PET", "is_deleted": false },
+    { "name": "Priority Boarding", "category": "PRIORITY", "base_cost": 40.00, "unit_of_measure": "PER_PASS", "is_deleted": false },
+    { "name": "Sporting Equipment Fee", "category": "BAGGAGE", "base_cost": 100.00, "unit_of_measure": "PER_ITEM", "is_deleted": false },
+    { "name": "Business Class Upgrade Bid", "category": "UPGRADE", "base_cost": null, "unit_of_measure": "PER_SEG", "is_deleted": false },
+    { "name": "Extra Legroom Seat", "category": "SEAT", "base_cost": 50.00, "unit_of_measure": "PER_SEAT", "is_deleted": false },
+    { "name": "In-flight Comfort Kit", "category": "AMENITY", "base_cost": 12.00, "unit_of_measure": "PER_ITEM", "is_deleted": false },
+    { "name": "Medical Oxygen Service", "category": "SPECIAL_ASSIST", "base_cost": 250.00, "unit_of_measure": "PER_FLIGHT", "is_deleted": false },
+    { "name": "Travel Insurance (Basic)", "category": "INSURANCE", "base_cost": 35.00, "unit_of_measure": "PER_PASS", "is_deleted": false }
+]
