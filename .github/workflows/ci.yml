@@ -36,20 +36,17 @@ jobs:
         with:
           python-version: '3.x'
 
-      # 3. Install MkDocs and all required dependencies  
+      # 3. Install MkDocs and all dependencies from requirements.txt 
       - name: Install Dependencies
         run: |
-          # The --break-system-packages flag is necessary to bypass environment protection.
-          # We install the core packages and all specific extensions used in your mkdocs.yml:
-          # - mkdocs & mkdocs-material: Core components
-          # - pymdown-extensions: For details, tabbed, superfences, and mermaid diagrams
-          # - mkdocs-glightbox: For the content.zoom feature and image lightboxing (Fixes the last error)
-          pip install mkdocs mkdocs-material pymdown-extensions mkdocs-glightbox --break-system-packages
+          # Use the centralized requirements.txt file for maximum reliability.
+          # The --break-system-packages flag is essential to bypass environment protection.
+          pip install -r requirements.txt --break-system-packages
           
       # 4. Build the MkDocs documentation site  
       - name: Build MkDocs Site
-        # We run the command directly, using the explicit paths relative to the repository root:
-        # --config-file: Points to Documentation/mkdocs.yml 
+        # We run the command directly, using the explicit paths relative to the repository root.
+        # --config-file: Points to Documentation/mkdocs.yml (where the file is located)
         # --site-dir: Outputs the built site to Documentation/site
         run: mkdocs build --config-file Documentation/mkdocs.yml --site-dir Documentation/site
          
@@ -62,7 +59,7 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Path to the output directory (which is now guaranteed to exist)
+          # Path to the output directory (which is now guaranteed to exist from step 4)
           path: Documentation/site 
 
       # 7. Deploy the artifact to GitHub Pages
