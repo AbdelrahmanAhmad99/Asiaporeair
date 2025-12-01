@@ -29,22 +29,28 @@ jobs:
         with:
           fetch-depth: 0
  
+
       # 2. Setup Python environment (MkDocs is a Python application)
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
-      # 3. Install MkDocs and dependencies 
+      # 3. Install MkDocs and all required dependencies  
       - name: Install Dependencies
         run: |
-          # The --break-system-packages flag is necessary to bypass environment protection in GitHub Actions.
-          # We install MkDocs, Material, AND the necessary extensions (pymdown-extensions) for the mkdocs.yml file.
-          pip install mkdocs mkdocs-material pymdown-extensions --break-system-packages
+          # The --break-system-packages flag is necessary to bypass environment protection.
+          # We install the core packages and all specific extensions used in your mkdocs.yml:
+          # - mkdocs & mkdocs-material: Core components
+          # - pymdown-extensions: For details, tabbed, superfences, and mermaid diagrams
+          # - mkdocs-glightbox: For the content.zoom feature and image lightboxing (Fixes the last error)
+          pip install mkdocs mkdocs-material pymdown-extensions mkdocs-glightbox --break-system-packages
           
       # 4. Build the MkDocs documentation site  
       - name: Build MkDocs Site
-        # We run the command directly, using the explicit paths relative to the repository root.
+        # We run the command directly, using the explicit paths relative to the repository root:
+        # --config-file: Points to Documentation/mkdocs.yml 
+        # --site-dir: Outputs the built site to Documentation/site
         run: mkdocs build --config-file Documentation/mkdocs.yml --site-dir Documentation/site
          
 
