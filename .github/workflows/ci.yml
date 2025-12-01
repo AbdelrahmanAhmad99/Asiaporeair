@@ -13,7 +13,7 @@ permissions:
   contents: read
   pages: write      
   id-token: write   
-
+ 
 # Ensure only one deployment job runs at a time
 concurrency:
   group: "pages"
