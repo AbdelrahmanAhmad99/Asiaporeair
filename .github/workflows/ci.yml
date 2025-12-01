@@ -39,15 +39,18 @@ jobs:
       - name: Install Dependencies
         run: |
           # The --break-system-packages flag is necessary to bypass environment protection in GitHub Actions.
+          # We install MkDocs and the Material theme, which is used in your mkdocs.yml.
           pip install mkdocs mkdocs-material --break-system-packages
-          # Add any other required plugins here if needed (e.g., pip install pymdown-extensions --break-system-packages)
+          # If you use the 'pymdownx' extensions (like superfences, tabbed), uncomment the line below:
+          # pip install pymdown-extensions --break-system-packages
           
-      # 4. Build the MkDocs documentation site (CRITICAL FIX for mkdocs.yml not found)
+      # 4. Build the MkDocs documentation site (CRITICAL FIX for all path issues)
       - name: Build MkDocs Site
         # We run the command directly, using the explicit paths relative to the repository root.
+        # --config-file: Points directly to Documentation/mkdocs.yml (Fixes Error: Config file not found)
+        # --site-dir: Outputs the built site to Documentation/site (Fixes Error: No files found)
         run: mkdocs build --config-file Documentation/mkdocs.yml --site-dir Documentation/site
          
-
       # 5. Setup the GitHub Pages environment
       - name: Setup Pages
         uses: actions/configure-pages@v4
