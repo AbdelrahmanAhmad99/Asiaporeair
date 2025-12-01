@@ -260,5 +260,4 @@ This layer ensures a robust, performance-tested data environment, critical for e
 </div>
  
 ---
-
-*Developed by Abdelrahman Ahmad*
+ 
