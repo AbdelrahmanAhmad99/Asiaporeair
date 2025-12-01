@@ -28,27 +28,40 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+ 
+      # 2. Setup Python environment (MkDocs is a Python application)
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
 
-      # 2. Setup the GitHub Pages environment
+      # 3. Install MkDocs and dependencies
+      - name: Install Dependencies
+        run: |
+          # Install MkDocs and the Material theme (required based on your mkdocs.yml)
+          pip install mkdocs mkdocs-material 
+          # Add any other required plugins here (e.g., pymdown-extensions)
+          
+      # 4. Build the MkDocs documentation site (CRITICAL FIX for mkdocs.yml not found)
+      - name: Build MkDocs Site
+        # We run the command directly, using the explicit paths relative to the repository root.
+        # --config-file: Points directly to Documentation/mkdocs.yml (Fixes Error: Config file not found)
+        # --site-dir: Outputs the built site to Documentation/site (Fixes Error: No files found)
+        run: mkdocs build --config-file Documentation/mkdocs.yml --site-dir Documentation/site
+       
+
+      # 5. Setup the GitHub Pages environment
       - name: Setup Pages
         uses: actions/configure-pages@v4
-        
-      # 3. Build the MkDocs documentation site
-      - name: Build MkDocs Site
-        uses: pawamoy/action-mkdocs@v1 
-        with:
-          # ***** CRITICAL: Specify the directory where mkdocs.yml is located *****
-          working-directory: Documentation 
-          output-path: site
-      
-      # 4. Upload the built files as an artifact
+          
+      # 6. Upload the built files as an artifact
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Path to the output directory (which is created inside the Documentation folder)
+          # This path is now guaranteed to exist and contain the built files
           path: Documentation/site 
 
-      # 5. Deploy the artifact to GitHub Pages
+      # 7. Deploy the artifact to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
