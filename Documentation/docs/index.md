@@ -1,11 +1,11 @@
 # Asiaporeair Documentation
 
-[![Documentation](https://img.shields.io/badge/Documentation%20Site-Technical%20Docs-1976D2?style=for-the-badge&logo=markdown)](http://127.0.0.1:8000/Asiaporeair/)
+[![Documentation](https://img.shields.io/badge/Documentation%20Site-Technical%20Docs-1976D2?style=for-the-badge&logo=markdown)](https://abdelrahmanahmad99.github.io/Asiaporeair/)
 [![GitHub repo](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=for-the-badge&logo=github)](https://github.com/AbdelrahmanAhmad99/Asiaporeair.git)
 [![Live Schema](https://img.shields.io/badge/Database%20Schema-dbdocs.io%20(Live)-CC2927?style=for-the-badge&logo=postgresql)](https://dbdocs.io/abdelrahmanahmed606ky/Asiapore-Airline-Database-Schema?view=relationships)
 [![API Reference](https://img.shields.io/badge/API%20Reference-Apidog%20Hosted%20Docs-FF9800?style=for-the-badge&logo=apidog)](https://share.apidog.com/762445f2-1d68-4894-b68b-6f4479003291)
-[![Booking Lifecycle](https://img.shields.io/badge/Major%20Use%20Case-Booking%20Lifecycle%20Doc-8E24AA?style=for-the-badge&logo=processwire)](http://127.0.0.1:8000/Asiaporeair/technical/api/booking_sequence/)
-[![Service Map](https://img.shields.io/badge/Service%20Map-Dependency%20Flow%20(UML)-00897B?style=for-the-badge&logo=dependabot)](http://127.0.0.1:8000/Asiaporeair/technical/services/dependency_map/)
+[![Booking Lifecycle](https://img.shields.io/badge/Major%20Use%20Case-Booking%20Lifecycle%20Doc-8E24AA?style=for-the-badge&logo=processwire)](https://abdelrahmanahmad99.github.io/Asiaporeair/technical/api/booking_sequence/)
+[![Service Map](https://img.shields.io/badge/Service%20Map-Dependency%20Flow%20(UML)-00897B?style=for-the-badge&logo=dependabot)](https://abdelrahmanahmad99.github.io/Asiaporeair/technical/services/dependency_map/)
 ## I. Project Overview  
 
 **Asiaporeair** is a simple project supports both a high-traffic **Customer Booking Engine System (CBES)** and a secure **Airport Operations Management System (AOMS)** interface. Developed as a training project, simulates the complex operational environment of a major international airline, inspired by some Asia Airlines standards.
