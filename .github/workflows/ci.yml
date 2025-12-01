@@ -35,7 +35,7 @@ jobs:
         
       # 3. Build the MkDocs documentation site
       - name: Build MkDocs Site
-        uses: actions/mkdocs-build@v1 
+        uses: actions/pawamoy/action-mkdocs@v1 
         with:
           # ***** CRITICAL: Specify the directory where mkdocs.yml is located *****
           working-directory: Documentation 
