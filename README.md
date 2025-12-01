@@ -1,4 +1,4 @@
-# Asiaporeair Documentation
+# Asiaporeair Project
 
 [![Documentation](https://img.shields.io/badge/Documentation%20Site-Technical%20Docs-1976D2?style=for-the-badge&logo=markdown)](https://abdelrahmanahmad99.github.io/Asiaporeair/)
 [![GitHub repo](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=for-the-badge&logo=github)](https://github.com/AbdelrahmanAhmad99/Asiaporeair.git)
@@ -39,8 +39,8 @@ This documentation is a living asset. Use the sidebar navigation to explore deep
 **Deep Dive into Design Principles**
 *Understand the foundational structure of Asiaporeair, from the **Clean Architecture** layers to the core domain model and authorization flow.*
 
-* [Clean Architecture Deep Dive](https://abdelrahmanahmad99.github.io/Asiaporeair/technical/arch/clean_arch.md)
-* [User Roles & Authorization Flow](https://abdelrahmanahmad99.github.io/Asiaporeair/technical/arch/auth_flow.md)
+* [Clean Architecture Deep Dive](https://abdelrahmanahmad99.github.io/Asiaporeair/technical/arch/clean_arch/)
+* [User Roles & Authorization Flow](https://abdelrahmanahmad99.github.io/Asiaporeair/technical/arch/auth_flow/)
 
 ---
 
@@ -48,8 +48,8 @@ This documentation is a living asset. Use the sidebar navigation to explore deep
 **Database Integrity and Schema Reference**
 *Explore the Entity-Relationship Diagram (**ERD**), the comprehensive schema reference, and the EF Core **migrations strategy** used for data integrity.*
 
-* [Entity-Relationship Diagram (ERD)](https://abdelrahmanahmad99.github.io/Asiaporeair/technical/database/erd.md)
-* [Data Seeding Strategy](https://abdelrahmanahmad99.github.io/Asiaporeair/technical/database/seeding.md)
+* [Entity-Relationship Diagram (ERD)](https://abdelrahmanahmad99.github.io/Asiaporeair/technical/database/erd/)
+* [Data Seeding Strategy](https://abdelrahmanahmad99.github.io/Asiaporeair/technical/database/seeding/)
 
 ---
 
@@ -57,8 +57,8 @@ This documentation is a living asset. Use the sidebar navigation to explore deep
 **Core Domain Logic and Service Contracts**
 *Detailed documentation of all primary business interfaces, including booking, ticketing, flight scheduling, and pricing services.*
 
-* [Service Dependency Map](https://abdelrahmanahmad99.github.io/Asiaporeair/technical/services/dependency_map.md)
-* [Flight Scheduling & Operations](https://abdelrahmanahmad99.github.io/Asiaporeair/technical/services/flight_ops.md)
+* [Service Dependency Map](https://abdelrahmanahmad99.github.io/Asiaporeair/technical/services/dependency_map/)
+* [Flight Scheduling & Operations](https://abdelrahmanahmad99.github.io/Asiaporeair/technical/services/flight_ops/)
 
 ---
 
@@ -66,8 +66,19 @@ This documentation is a living asset. Use the sidebar navigation to explore deep
 **Endpoints, Use Cases, and Integration**
 *Reference for all REST endpoints (**Public** and **Admin**), the full **Booking Lifecycle**, and **Postman collection setup** for testing.*
 
-* [Public API (Customer Facing)](https://abdelrahmanahmad99.github.io/Asiaporeair/technical/api/public_controllers.md)
-* [Admin API (Management)](https://abdelrahmanahmad99.github.io/Asiaporeair/technical/api/admin_controllers.md)
-* [Booking Lifecycle Sequence](https://abdelrahmanahmad99.github.io/Asiaporeair/technical/api/booking_sequence.md)
+* [Public API (Customer Facing)](https://abdelrahmanahmad99.github.io/Asiaporeair/technical/api/public_controllers/)
+* [Admin API (Management)](https://abdelrahmanahmad99.github.io/Asiaporeair/technical/api/admin_controllers/)
+* [Booking Lifecycle Sequence](https://abdelrahmanahmad99.github.io/Asiaporeair/technical/api/booking_sequence/)
 
 ---
+ 
+## IV. Contribution & Support 
+
+We welcome contributions and feedback on the project's code and documentation.
+
+* **Report Issues/Feedback:** For bugs, feature requests, or general inquiries, please contact the developer directly via email.
+* **Email:** `abdelrahmanahmed9909ji@gmail.com`
+* **Source Code:** The full documentation source files are available in the `/Documentation/docs` directory.
+
+---
+*Developed by Abdelrahman Ahmad*
